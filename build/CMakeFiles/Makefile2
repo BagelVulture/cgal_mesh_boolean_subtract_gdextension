@@ -54,10 +54,10 @@ RM = /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/EthanHuot/Documents/godot/scrap-collector
+CMAKE_SOURCE_DIR = /Users/EthanHuot/Documents/godot/cgal_gdextension
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/EthanHuot/Documents/godot/scrap-collector/build
+CMAKE_BINARY_DIR = /Users/EthanHuot/Documents/godot/cgal_gdextension/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -108,14 +108,14 @@ godot-cpp/clean: godot-cpp/CMakeFiles/godot-cpp.dir/clean
 CMakeFiles/cgal_gdextension.dir/all: godot-cpp/CMakeFiles/godot-cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles --progress-num= "Built target cgal_gdextension"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num= "Built target cgal_gdextension"
 .PHONY : CMakeFiles/cgal_gdextension.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cgal_gdextension.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles 100
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles 100
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cgal_gdextension.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles 0
 .PHONY : CMakeFiles/cgal_gdextension.dir/rule
 
 # Convenience name for target.
@@ -125,7 +125,7 @@ cgal_gdextension: CMakeFiles/cgal_gdextension.dir/rule
 # codegen rule for target.
 CMakeFiles/cgal_gdextension.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles --progress-num= "Finished codegen for target cgal_gdextension"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num= "Finished codegen for target cgal_gdextension"
 .PHONY : CMakeFiles/cgal_gdextension.dir/codegen
 
 # clean rule for target.
@@ -140,14 +140,14 @@ CMakeFiles/cgal_gdextension.dir/clean:
 godot-cpp/CMakeFiles/generate_bindings.dir/all:
 	$(MAKE) $(MAKESILENT) -f godot-cpp/CMakeFiles/generate_bindings.dir/build.make godot-cpp/CMakeFiles/generate_bindings.dir/depend
 	$(MAKE) $(MAKESILENT) -f godot-cpp/CMakeFiles/generate_bindings.dir/build.make godot-cpp/CMakeFiles/generate_bindings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles --progress-num= "Built target generate_bindings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num= "Built target generate_bindings"
 .PHONY : godot-cpp/CMakeFiles/generate_bindings.dir/all
 
 # Build rule for subdir invocation for target.
 godot-cpp/CMakeFiles/generate_bindings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 godot-cpp/CMakeFiles/generate_bindings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles 0
 .PHONY : godot-cpp/CMakeFiles/generate_bindings.dir/rule
 
 # Convenience name for target.
@@ -157,7 +157,7 @@ generate_bindings: godot-cpp/CMakeFiles/generate_bindings.dir/rule
 # codegen rule for target.
 godot-cpp/CMakeFiles/generate_bindings.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f godot-cpp/CMakeFiles/generate_bindings.dir/build.make godot-cpp/CMakeFiles/generate_bindings.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles --progress-num= "Finished codegen for target generate_bindings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num= "Finished codegen for target generate_bindings"
 .PHONY : godot-cpp/CMakeFiles/generate_bindings.dir/codegen
 
 # clean rule for target.
@@ -172,14 +172,14 @@ godot-cpp/CMakeFiles/generate_bindings.dir/clean:
 godot-cpp/CMakeFiles/godot-cpp.dir/all: godot-cpp/CMakeFiles/generate_bindings.dir/all
 	$(MAKE) $(MAKESILENT) -f godot-cpp/CMakeFiles/godot-cpp.dir/build.make godot-cpp/CMakeFiles/godot-cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f godot-cpp/CMakeFiles/godot-cpp.dir/build.make godot-cpp/CMakeFiles/godot-cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target godot-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target godot-cpp"
 .PHONY : godot-cpp/CMakeFiles/godot-cpp.dir/all
 
 # Build rule for subdir invocation for target.
 godot-cpp/CMakeFiles/godot-cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles 100
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles 100
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 godot-cpp/CMakeFiles/godot-cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles 0
 .PHONY : godot-cpp/CMakeFiles/godot-cpp.dir/rule
 
 # Convenience name for target.
@@ -189,7 +189,7 @@ godot-cpp: godot-cpp/CMakeFiles/godot-cpp.dir/rule
 # codegen rule for target.
 godot-cpp/CMakeFiles/godot-cpp.dir/codegen: godot-cpp/CMakeFiles/generate_bindings.dir/all
 	$(MAKE) $(MAKESILENT) -f godot-cpp/CMakeFiles/godot-cpp.dir/build.make godot-cpp/CMakeFiles/godot-cpp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Finished codegen for target godot-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Finished codegen for target godot-cpp"
 .PHONY : godot-cpp/CMakeFiles/godot-cpp.dir/codegen
 
 # clean rule for target.
@@ -204,7 +204,7 @@ godot-cpp/CMakeFiles/godot-cpp.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

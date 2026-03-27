@@ -20,11 +20,11 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -41,11 +41,11 @@ events:
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
       - "/Users/EthanHuot/.cargo/bin/"
     searched_directories:
-      - "/opt/homebrew/bin/uname"
-      - "/opt/homebrew/sbin/uname"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/uname"
       - "/usr/local/cmake-4.1.1/bin/uname"
       - "/Applications/CMake.app/Contents/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
       - "/opt/local/bin/uname"
       - "/opt/local/sbin/uname"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/uname"
@@ -54,11 +54,11 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -102,11 +102,11 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -123,11 +123,11 @@ events:
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
       - "/Users/EthanHuot/.cargo/bin/"
     searched_directories:
-      - "/opt/homebrew/bin/gmake"
-      - "/opt/homebrew/sbin/gmake"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/gmake"
       - "/usr/local/cmake-4.1.1/bin/gmake"
       - "/Applications/CMake.app/Contents/bin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/opt/homebrew/sbin/gmake"
       - "/opt/local/bin/gmake"
       - "/opt/local/sbin/gmake"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/gmake"
@@ -143,11 +143,11 @@ events:
       - "/Library/Apple/usr/bin/gmake"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/gmake"
       - "/Users/EthanHuot/.cargo/bin/gmake"
-      - "/opt/homebrew/bin/make"
-      - "/opt/homebrew/sbin/make"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/make"
       - "/usr/local/cmake-4.1.1/bin/make"
       - "/Applications/CMake.app/Contents/bin/make"
+      - "/opt/homebrew/bin/make"
+      - "/opt/homebrew/sbin/make"
       - "/opt/local/bin/make"
       - "/opt/local/sbin/make"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/make"
@@ -156,11 +156,11 @@ events:
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -202,11 +202,11 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -223,11 +223,11 @@ events:
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
       - "/Users/EthanHuot/.cargo/bin/"
     searched_directories:
-      - "/opt/homebrew/bin/c++"
-      - "/opt/homebrew/sbin/c++"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/c++"
       - "/usr/local/cmake-4.1.1/bin/c++"
       - "/Applications/CMake.app/Contents/bin/c++"
+      - "/opt/homebrew/bin/c++"
+      - "/opt/homebrew/sbin/c++"
       - "/opt/local/bin/c++"
       - "/opt/local/sbin/c++"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/c++"
@@ -236,11 +236,11 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -283,11 +283,11 @@ events:
     found: "/usr/local/cmake-4.1.1/CMake.app/Contents/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -323,7 +323,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/4.1.1/CompilerIdCXX/a.out
+        /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/4.1.1/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -374,11 +374,11 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -396,11 +396,11 @@ events:
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -437,11 +437,11 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -459,11 +459,11 @@ events:
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -500,11 +500,11 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -522,11 +522,11 @@ events:
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -563,11 +563,11 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -585,11 +585,11 @@ events:
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -626,11 +626,11 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -648,11 +648,11 @@ events:
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -689,11 +689,11 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -711,11 +711,11 @@ events:
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -752,11 +752,11 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -773,11 +773,11 @@ events:
       - "/Users/EthanHuot/.cargo/bin/"
     searched_directories:
       - "/usr/bin/objcopy"
-      - "/opt/homebrew/bin/objcopy"
-      - "/opt/homebrew/sbin/objcopy"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/objcopy"
       - "/usr/local/cmake-4.1.1/bin/objcopy"
       - "/Applications/CMake.app/Contents/bin/objcopy"
+      - "/opt/homebrew/bin/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
       - "/opt/local/bin/objcopy"
       - "/opt/local/sbin/objcopy"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/objcopy"
@@ -795,11 +795,11 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -836,11 +836,11 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -857,11 +857,11 @@ events:
       - "/Users/EthanHuot/.cargo/bin/"
     searched_directories:
       - "/usr/bin/readelf"
-      - "/opt/homebrew/bin/readelf"
-      - "/opt/homebrew/sbin/readelf"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/readelf"
       - "/usr/local/cmake-4.1.1/bin/readelf"
       - "/Applications/CMake.app/Contents/bin/readelf"
+      - "/opt/homebrew/bin/readelf"
+      - "/opt/homebrew/sbin/readelf"
       - "/opt/local/bin/readelf"
       - "/opt/local/sbin/readelf"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/readelf"
@@ -879,11 +879,11 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -920,11 +920,11 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -941,11 +941,11 @@ events:
       - "/Users/EthanHuot/.cargo/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/opt/homebrew/bin/dlltool"
-      - "/opt/homebrew/sbin/dlltool"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/dlltool"
       - "/usr/local/cmake-4.1.1/bin/dlltool"
       - "/Applications/CMake.app/Contents/bin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
       - "/opt/local/bin/dlltool"
       - "/opt/local/sbin/dlltool"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/dlltool"
@@ -963,11 +963,11 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1004,11 +1004,11 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1025,11 +1025,11 @@ events:
       - "/Users/EthanHuot/.cargo/bin/"
     searched_directories:
       - "/usr/bin/addr2line"
-      - "/opt/homebrew/bin/addr2line"
-      - "/opt/homebrew/sbin/addr2line"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/addr2line"
       - "/usr/local/cmake-4.1.1/bin/addr2line"
       - "/Applications/CMake.app/Contents/bin/addr2line"
+      - "/opt/homebrew/bin/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
       - "/opt/local/bin/addr2line"
       - "/opt/local/sbin/addr2line"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/addr2line"
@@ -1047,11 +1047,11 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1088,11 +1088,11 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1109,11 +1109,11 @@ events:
       - "/Users/EthanHuot/.cargo/bin/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/opt/homebrew/bin/tapi"
-      - "/opt/homebrew/sbin/tapi"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/tapi"
       - "/usr/local/cmake-4.1.1/bin/tapi"
       - "/Applications/CMake.app/Contents/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
       - "/opt/local/bin/tapi"
       - "/opt/local/sbin/tapi"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/tapi"
@@ -1131,11 +1131,11 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1171,11 +1171,11 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1192,11 +1192,11 @@ events:
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
       - "/Users/EthanHuot/.cargo/bin/"
     searched_directories:
-      - "/opt/homebrew/bin/install_name_tool"
-      - "/opt/homebrew/sbin/install_name_tool"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/install_name_tool"
       - "/usr/local/cmake-4.1.1/bin/install_name_tool"
       - "/Applications/CMake.app/Contents/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
       - "/opt/local/bin/install_name_tool"
       - "/opt/local/sbin/install_name_tool"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/install_name_tool"
@@ -1205,11 +1205,11 @@ events:
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1235,8 +1235,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/CMakeScratch/TryCompile-Fvih3k"
-      binary: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/CMakeScratch/TryCompile-Fvih3k"
+      source: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/CMakeScratch/TryCompile-diHZJy"
+      binary: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/CMakeScratch/TryCompile-diHZJy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1249,19 +1249,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/CMakeScratch/TryCompile-Fvih3k'
+        Change Dir: '/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/CMakeScratch/TryCompile-diHZJy'
         
-        Run Build Command(s): /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f3871/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f3871.dir/build.make CMakeFiles/cmTC_f3871.dir/build
-        Building CXX object CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-4.1.1/CMake.app/Contents/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_65399/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_65399.dir/build.make CMakeFiles/cmTC_65399.dir/build
+        Building CXX object CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-4.1.1/CMake.app/Contents/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 12.0.0 (clang-1200.0.32.29)
         Target: aarch64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.1.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=non-leaf -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu vortex -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/CMakeScratch/TryCompile-Fvih3k -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-11.1.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/cmake-4.1.1/CMake.app/Contents/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.1.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=non-leaf -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu vortex -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/CMakeScratch/TryCompile-diHZJy -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-11.1.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/cmake-4.1.1/CMake.app/Contents/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target arm64-apple-darwin24.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1274,13 +1274,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_f3871
-        /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3871.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_65399
+        /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65399.dir/link.txt --verbose=1
         Apple clang version 12.0.0 (clang-1200.0.32.29)
         Target: aarch64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.1.0 11.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_f3871 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.1.0 11.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_65399 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:ld64-609.8
         BUILD 15:07:50 Dec 18 2020
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1289,7 +1289,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f3871
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_65399
         
       exitCode: 0
   -
@@ -1335,19 +1335,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/CMakeScratch/TryCompile-Fvih3k']
+        ignore line: [Change Dir: '/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/CMakeScratch/TryCompile-diHZJy']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f3871/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f3871.dir/build.make CMakeFiles/cmTC_f3871.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-4.1.1/CMake.app/Contents/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_65399/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_65399.dir/build.make CMakeFiles/cmTC_65399.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-4.1.1/CMake.app/Contents/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
         ignore line: [Target: aarch64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.1.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=non-leaf -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu vortex -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/CMakeScratch/TryCompile-Fvih3k -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-11.1.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/cmake-4.1.1/CMake.app/Contents/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx11.1.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=non-leaf -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu vortex -target-feature +v8.3a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +fullfp16 -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0 -dependency-file CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/CMakeScratch/TryCompile-diHZJy -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-11.1.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/cmake-4.1.1/CMake.app/Contents/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target arm64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1360,13 +1360,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_f3871]
-        ignore line: [/usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3871.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_65399]
+        ignore line: [/usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65399.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
         ignore line: [Target: aarch64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.1.0 11.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_f3871 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.1.0 11.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_65399 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1381,12 +1381,12 @@ events:
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_f3871] ==> ignore
+          arg [cmTC_65399] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_f3871.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_65399.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
@@ -1439,11 +1439,11 @@ events:
     names:
       - "git"
     candidate_directories:
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1494,11 +1494,11 @@ events:
       - "/Users/EthanHuot/Applications/"
       - "/Applications/"
     searched_directories:
-      - "/opt/homebrew/bin/git"
-      - "/opt/homebrew/sbin/git"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/git"
       - "/usr/local/cmake-4.1.1/bin/git"
       - "/Applications/CMake.app/Contents/bin/git"
+      - "/opt/homebrew/bin/git"
+      - "/opt/homebrew/sbin/git"
       - "/opt/local/bin/git"
       - "/opt/local/sbin/git"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/git"
@@ -1507,11 +1507,11 @@ events:
     found: "/usr/bin/git"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1570,16 +1570,16 @@ events:
       - "/include/"
       - "/opt/homebrew/auxiliary/gmp/include/include/"
       - "/opt/homebrew/auxiliary/gmp/include/"
-      - "/opt/homebrew/bin/include/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/include/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/include/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/include/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/include/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/include/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/include/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/include/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/include/"
@@ -1675,16 +1675,16 @@ events:
       - "/include/gmp.h"
       - "/opt/homebrew/auxiliary/gmp/include/include/gmp.h"
       - "/opt/homebrew/auxiliary/gmp/include/gmp.h"
-      - "/opt/homebrew/bin/include/gmp.h"
-      - "/opt/homebrew/bin/gmp.h"
-      - "/opt/homebrew/sbin/include/gmp.h"
-      - "/opt/homebrew/sbin/gmp.h"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/include/gmp.h"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/gmp.h"
       - "/usr/local/cmake-4.1.1/bin/include/gmp.h"
       - "/usr/local/cmake-4.1.1/bin/gmp.h"
       - "/Applications/CMake.app/Contents/bin/include/gmp.h"
       - "/Applications/CMake.app/Contents/bin/gmp.h"
+      - "/opt/homebrew/bin/include/gmp.h"
+      - "/opt/homebrew/bin/gmp.h"
+      - "/opt/homebrew/sbin/include/gmp.h"
+      - "/opt/homebrew/sbin/gmp.h"
       - "/opt/local/bin/include/gmp.h"
       - "/opt/local/bin/gmp.h"
       - "/opt/local/sbin/include/gmp.h"
@@ -1723,11 +1723,11 @@ events:
     found: "/opt/homebrew/include/"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1794,9 +1794,9 @@ events:
       - "gmp-10"
       - "mpir"
     candidate_directories:
+      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
-      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1831,9 +1831,9 @@ events:
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
-      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1852,11 +1852,11 @@ events:
     found: "/opt/homebrew/lib/libgmp.dylib"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1924,9 +1924,9 @@ events:
       - "gmp-10"
       - "mpir"
     candidate_directories:
+      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
-      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1961,9 +1961,9 @@ events:
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
-      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1997,9 +1997,9 @@ events:
       - "/Library/Developer/CommandLineTools/Library/Frameworks/"
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
+      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
-      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -2018,11 +2018,11 @@ events:
     found: "/opt/homebrew/lib/libgmp.dylib"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -2090,16 +2090,16 @@ events:
       - "/include/"
       - "/opt/homebrew/auxiliary/gmp/include/include/"
       - "/opt/homebrew/auxiliary/gmp/include/"
-      - "/opt/homebrew/bin/include/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/include/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/include/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/include/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/include/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/include/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/include/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/include/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/include/"
@@ -2195,16 +2195,16 @@ events:
       - "/include/mpfr.h"
       - "/opt/homebrew/auxiliary/gmp/include/include/mpfr.h"
       - "/opt/homebrew/auxiliary/gmp/include/mpfr.h"
-      - "/opt/homebrew/bin/include/mpfr.h"
-      - "/opt/homebrew/bin/mpfr.h"
-      - "/opt/homebrew/sbin/include/mpfr.h"
-      - "/opt/homebrew/sbin/mpfr.h"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/include/mpfr.h"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/mpfr.h"
       - "/usr/local/cmake-4.1.1/bin/include/mpfr.h"
       - "/usr/local/cmake-4.1.1/bin/mpfr.h"
       - "/Applications/CMake.app/Contents/bin/include/mpfr.h"
       - "/Applications/CMake.app/Contents/bin/mpfr.h"
+      - "/opt/homebrew/bin/include/mpfr.h"
+      - "/opt/homebrew/bin/mpfr.h"
+      - "/opt/homebrew/sbin/include/mpfr.h"
+      - "/opt/homebrew/sbin/mpfr.h"
       - "/opt/local/bin/include/mpfr.h"
       - "/opt/local/bin/mpfr.h"
       - "/opt/local/sbin/include/mpfr.h"
@@ -2243,11 +2243,11 @@ events:
     found: "/opt/homebrew/include/"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -2313,9 +2313,9 @@ events:
       - "libmpfr-4"
       - "libmpfr-1"
     candidate_directories:
+      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
-      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -2350,9 +2350,9 @@ events:
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
-      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -2371,11 +2371,11 @@ events:
     found: "/opt/homebrew/lib/libmpfr.dylib"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -2439,16 +2439,16 @@ events:
     names:
       - "gmpxx.h"
     candidate_directories:
-      - "/opt/homebrew/bin/include/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/include/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/include/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/include/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/include/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/include/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/include/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/include/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/include/"
@@ -2540,16 +2540,16 @@ events:
       - "/System/Library/Frameworks/include/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/opt/homebrew/bin/include/gmpxx.h"
-      - "/opt/homebrew/bin/gmpxx.h"
-      - "/opt/homebrew/sbin/include/gmpxx.h"
-      - "/opt/homebrew/sbin/gmpxx.h"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/include/gmpxx.h"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/gmpxx.h"
       - "/usr/local/cmake-4.1.1/bin/include/gmpxx.h"
       - "/usr/local/cmake-4.1.1/bin/gmpxx.h"
       - "/Applications/CMake.app/Contents/bin/include/gmpxx.h"
       - "/Applications/CMake.app/Contents/bin/gmpxx.h"
+      - "/opt/homebrew/bin/include/gmpxx.h"
+      - "/opt/homebrew/bin/gmpxx.h"
+      - "/opt/homebrew/sbin/include/gmpxx.h"
+      - "/opt/homebrew/sbin/gmpxx.h"
       - "/opt/local/bin/include/gmpxx.h"
       - "/opt/local/bin/gmpxx.h"
       - "/opt/local/sbin/include/gmpxx.h"
@@ -2588,11 +2588,11 @@ events:
     found: "/opt/homebrew/include/"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -2656,9 +2656,9 @@ events:
     names:
       - "gmpxx"
     candidate_directories:
+      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
-      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -2693,9 +2693,9 @@ events:
       - "/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
+      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
-      - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -2714,11 +2714,11 @@ events:
     found: "/opt/homebrew/lib/libgmpxx.dylib"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -2805,11 +2805,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/pkgRedirects/boost_headersConfig.cmake"
+        path: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/pkgRedirects/boost_headersConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/pkgRedirects/boost_headers-config.cmake"
+        path: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/pkgRedirects/boost_headers-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2830,11 +2830,11 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -2915,11 +2915,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/pkgRedirects/BoostConfig.cmake"
+        path: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/pkgRedirects/BoostConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/pkgRedirects/boost-config.cmake"
+        path: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/pkgRedirects/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/CMake.app/Contents/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/CMake.app/Contents/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/boost-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3280,11 +3296,11 @@ events:
       version: "1.90.0"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -3342,8 +3358,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/CMakeScratch/TryCompile-V3ELsj"
-      binary: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/CMakeScratch/TryCompile-V3ELsj"
+      source: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/CMakeScratch/TryCompile-cN5ohD"
+      binary: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/CMakeScratch/TryCompile-cN5ohD"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3356,15 +3372,15 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/CMakeScratch/TryCompile-V3ELsj'
+        Change Dir: '/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/CMakeScratch/TryCompile-cN5ohD'
         
-        Run Build Command(s): /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d304b/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d304b.dir/build.make CMakeFiles/cmTC_d304b.dir/build
-        Building CXX object CMakeFiles/cmTC_d304b.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_d304b.dir/src.cxx.o -MF CMakeFiles/cmTC_d304b.dir/src.cxx.o.d -o CMakeFiles/cmTC_d304b.dir/src.cxx.o -c /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/CMakeScratch/TryCompile-V3ELsj/src.cxx
-        Linking CXX executable cmTC_d304b
-        /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d304b.dir/link.txt --verbose=1
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d304b.dir/src.cxx.o -o cmTC_d304b
+        Run Build Command(s): /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0228a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0228a.dir/build.make CMakeFiles/cmTC_0228a.dir/build
+        Building CXX object CMakeFiles/cmTC_0228a.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_0228a.dir/src.cxx.o -MF CMakeFiles/cmTC_0228a.dir/src.cxx.o.d -o CMakeFiles/cmTC_0228a.dir/src.cxx.o -c /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/CMakeScratch/TryCompile-cN5ohD/src.cxx
+        Linking CXX executable cmTC_0228a
+        /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0228a.dir/link.txt --verbose=1
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0228a.dir/src.cxx.o -o cmTC_0228a
         
       exitCode: 0
   -
@@ -3403,11 +3419,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/pkgRedirects/CGALConfig.cmake"
+        path: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/pkgRedirects/CGALConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/pkgRedirects/cgal-config.cmake"
+        path: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/pkgRedirects/cgal-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/CMake.app/Contents/CGALConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/CMake.app/Contents/cgal-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/CGALConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/cgal-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3424,11 +3456,11 @@ events:
       version: "6.1.1"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -3508,11 +3540,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/pkgRedirects/Eigen3Config.cmake"
+        path: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/pkgRedirects/Eigen3Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/pkgRedirects/eigen3-config.cmake"
+        path: "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/pkgRedirects/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/CMake.app/Contents/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/CMake.app/Contents/eigen3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/Eigen3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cmake-4.1.1/eigen3-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3537,11 +3585,11 @@ events:
       version: "5.0.1"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -3613,11 +3661,11 @@ events:
     found: "/opt/homebrew/include/"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -3794,11 +3842,11 @@ events:
     found: "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -3851,11 +3899,11 @@ events:
     names:
       - "sysctl"
     candidate_directories:
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/"
       - "/usr/local/cmake-4.1.1/bin/"
       - "/Applications/CMake.app/Contents/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -3906,11 +3954,11 @@ events:
       - "/Users/EthanHuot/Applications/"
       - "/Applications/"
     searched_directories:
-      - "/opt/homebrew/bin/sysctl"
-      - "/opt/homebrew/sbin/sysctl"
       - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin/sysctl"
       - "/usr/local/cmake-4.1.1/bin/sysctl"
       - "/Applications/CMake.app/Contents/bin/sysctl"
+      - "/opt/homebrew/bin/sysctl"
+      - "/opt/homebrew/sbin/sysctl"
       - "/opt/local/bin/sysctl"
       - "/opt/local/sbin/sysctl"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/sysctl"
@@ -3921,11 +3969,11 @@ events:
     found: "/usr/sbin/sysctl"
     search_context:
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/usr/local/cmake-4.1.1/CMake.app/Contents/bin"
         - "/usr/local/cmake-4.1.1/bin"
         - "/Applications/CMake.app/Contents/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"

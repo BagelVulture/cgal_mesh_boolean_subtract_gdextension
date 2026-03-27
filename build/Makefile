@@ -57,10 +57,10 @@ RM = /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/EthanHuot/Documents/godot/scrap-collector
+CMAKE_SOURCE_DIR = /Users/EthanHuot/Documents/godot/cgal_gdextension
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/EthanHuot/Documents/godot/scrap-collector/build
+CMAKE_BINARY_DIR = /Users/EthanHuot/Documents/godot/cgal_gdextension/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles /Users/EthanHuot/Documents/godot/scrap-collector/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles /Users/EthanHuot/Documents/godot/cgal_gdextension/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -113,7 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -204,6 +204,30 @@ modules/boolean.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.s
 .PHONY : modules/boolean.cpp.s
 
+src/cgal_wrapper.o: src/cgal_wrapper.cpp.o
+.PHONY : src/cgal_wrapper.o
+
+# target to build an object file
+src/cgal_wrapper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o
+.PHONY : src/cgal_wrapper.cpp.o
+
+src/cgal_wrapper.i: src/cgal_wrapper.cpp.i
+.PHONY : src/cgal_wrapper.i
+
+# target to preprocess a source file
+src/cgal_wrapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.i
+.PHONY : src/cgal_wrapper.cpp.i
+
+src/cgal_wrapper.s: src/cgal_wrapper.cpp.s
+.PHONY : src/cgal_wrapper.s
+
+# target to generate assembly for a file
+src/cgal_wrapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.s
+.PHONY : src/cgal_wrapper.cpp.s
+
 src/register_types.o: src/register_types.cpp.o
 .PHONY : src/register_types.o
 
@@ -245,6 +269,9 @@ help:
 	@echo "... modules/boolean.o"
 	@echo "... modules/boolean.i"
 	@echo "... modules/boolean.s"
+	@echo "... src/cgal_wrapper.o"
+	@echo "... src/cgal_wrapper.i"
+	@echo "... src/cgal_wrapper.s"
 	@echo "... src/register_types.o"
 	@echo "... src/register_types.i"
 	@echo "... src/register_types.s"
@@ -259,7 +286,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

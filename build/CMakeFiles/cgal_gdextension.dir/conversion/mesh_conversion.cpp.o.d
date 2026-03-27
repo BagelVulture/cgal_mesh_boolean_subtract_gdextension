@@ -1,7 +1,7 @@
 CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o: \
-  /Users/EthanHuot/Documents/godot/scrap-collector/conversion/mesh_conversion.cpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/conversion/mesh_conversion.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/conversion/../include/cgal_types.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/conversion/mesh_conversion.cpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/conversion/mesh_conversion.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/conversion/../include/cgal_types.hpp \
   /usr/local/include/CGAL/Simple_cartesian.h \
   /usr/local/include/CGAL/Cartesian/Cartesian_base.h \
   /usr/local/include/CGAL/basic.h /usr/local/include/CGAL/config.h \

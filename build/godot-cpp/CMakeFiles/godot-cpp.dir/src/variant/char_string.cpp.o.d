@@ -1,8 +1,8 @@
 godot-cpp/CMakeFiles/godot-cpp.dir/src/variant/char_string.cpp.o: \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/src/variant/char_string.cpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/char_string.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/templates/cowdata.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/classes/global_constants.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/src/variant/char_string.cpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/char_string.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/templates/cowdata.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/classes/global_constants.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h \
@@ -34,8 +34,8 @@ godot-cpp/CMakeFiles/godot-cpp.dir/src/variant/char_string.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/error_macros.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/defs.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/error_macros.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/defs.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__cxx_version \
   /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
@@ -85,9 +85,9 @@ godot-cpp/CMakeFiles/godot-cpp.dir/src/variant/char_string.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/atomic \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/math.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/math_defs.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/gdextension/gdextension_interface.h \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/math.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/math_defs.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/gdextension/gdextension_interface.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/stdlib.h \
@@ -123,18 +123,18 @@ godot-cpp/CMakeFiles/godot-cpp.dir/src/variant/char_string.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/limits \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__undef_macros \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/math.compat.inc \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/memory.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/godot.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/templates/safe_refcount.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/math.compat.inc \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/memory.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/godot.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/templates/safe_refcount.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/new \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/exception \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstdlib \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/node_path.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/string.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/char_utils.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/char_range.inc.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/string_name.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/node_path.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/string.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/char_utils.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/char_range.inc.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/string_name.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string_view \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__string \

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp
+# Install script for directory: /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/install_local_manifest.txt"
+  file(WRITE "/Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,6 +1,7 @@
 #include <godot_cpp/core/class_db.hpp>
 #include <godot_cpp/core/defs.hpp>
 #include <godot_cpp/godot.hpp>
+#include "cgal_wrapper.h"
 
 using namespace godot;
 
@@ -8,6 +9,7 @@ void initialize_cgal_gdextension(ModuleInitializationLevel p_level) {
     if (p_level != MODULE_INITIALIZATION_LEVEL_SCENE) {
         return;
     }
+    ClassDB::register_class<CGALWrapper>();
 }
 
 void uninitialize_cgal_gdextension(ModuleInitializationLevel p_level) {

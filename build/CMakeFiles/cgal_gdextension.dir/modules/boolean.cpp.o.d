@@ -1,5 +1,5 @@
 CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o: \
-  /Users/EthanHuot/Documents/godot/scrap-collector/modules/boolean.cpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/modules/boolean.cpp \
   /usr/local/include/CGAL/Polygon_mesh_processing/corefinement.h \
   /usr/local/include/CGAL/license/Polygon_mesh_processing/corefinement.h \
   /usr/local/include/CGAL/config.h /usr/local/include/boost/config.hpp \
@@ -2505,7 +2505,7 @@ CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o: \
   /usr/local/include/boost/container/detail/pair.hpp \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/Corefinement/Face_graph_output_builder.h \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/Corefinement/Output_builder_for_autorefinement.h \
-  /Users/EthanHuot/Documents/godot/scrap-collector/modules/../include/cgal_types.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/modules/../include/cgal_types.hpp \
   /usr/local/include/CGAL/Surface_mesh.h \
   /usr/local/include/CGAL/license/Surface_mesh.h \
   /usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h \

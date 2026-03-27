@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DDEBUG_ENABLED -DGDEXTENSION -DHOT_RELOAD_ENABLED -DMACOS_ENABLED -DTHREADS_ENABLED -DUNIX_ENABLED
 
-CXX_INCLUDES = -I/Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include -I/Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include -I/Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/gdextension
+CXX_INCLUDES = -I/Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include -I/Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include -I/Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/gdextension
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC -fvisibility=hidden -fno-exceptions
 

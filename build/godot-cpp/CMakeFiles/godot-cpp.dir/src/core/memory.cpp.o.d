@@ -1,6 +1,6 @@
 godot-cpp/CMakeFiles/godot-cpp.dir/src/core/memory.cpp.o: \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/src/core/memory.cpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/memory.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/src/core/memory.cpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/memory.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h \
@@ -38,7 +38,7 @@ godot-cpp/CMakeFiles/godot-cpp.dir/src/core/memory.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/defs.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/defs.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/utility \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__tuple \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/initializer_list \
@@ -81,7 +81,7 @@ godot-cpp/CMakeFiles/godot-cpp.dir/src/core/memory.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/error_macros.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/error_macros.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/atomic \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/godot.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/gdextension/gdextension_interface.h
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/godot.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/gdextension/gdextension_interface.h

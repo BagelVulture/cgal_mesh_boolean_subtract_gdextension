@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/EthanHuot/Documents/godot/scrap-collector/build/cmake_install.cmake",
-		"/Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/cmake_install.cmake"
+		"/Users/EthanHuot/Documents/godot/cgal_gdextension/build/cmake_install.cmake",
+		"/Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

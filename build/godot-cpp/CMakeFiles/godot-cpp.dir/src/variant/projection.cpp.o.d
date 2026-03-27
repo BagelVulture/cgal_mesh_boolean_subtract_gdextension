@@ -1,8 +1,8 @@
 godot-cpp/CMakeFiles/godot-cpp.dir/src/variant/projection.cpp.o: \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/src/variant/projection.cpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/projection.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/math.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/defs.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/src/variant/projection.cpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/projection.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/math.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/defs.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h \
@@ -82,8 +82,8 @@ godot-cpp/CMakeFiles/godot-cpp.dir/src/variant/projection.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/math_defs.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/gdextension/gdextension_interface.h \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/math_defs.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/gdextension/gdextension_interface.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/stdlib.h \
@@ -119,20 +119,20 @@ godot-cpp/CMakeFiles/godot-cpp.dir/src/variant/projection.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/limits \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__undef_macros \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/math.compat.inc \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/templates/vector.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/error_macros.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/math.compat.inc \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/templates/vector.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/error_macros.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/atomic \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/memory.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/godot.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/templates/cowdata.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/classes/global_constants.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/templates/safe_refcount.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/memory.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/godot.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/templates/cowdata.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/classes/global_constants.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/templates/safe_refcount.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/new \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/exception \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstdlib \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/templates/search_array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/templates/sort_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/templates/search_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/templates/sort_array.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/climits \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
@@ -141,48 +141,48 @@ godot-cpp/CMakeFiles/godot-cpp.dir/src/variant/projection.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/vector3.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/string.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/char_string.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/char_utils.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/char_range.inc.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/vector4.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/aabb.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/plane.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/rect2.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/vector2.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/transform3d.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/basis.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/quaternion.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/packed_vector3_array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/variant.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/array_helpers.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/builtin_types.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/callable.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/callable_custom.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/core/object_id.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/string_name.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/color.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/dictionary.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/node_path.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/packed_byte_array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/packed_color_array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/packed_float32_array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/packed_float64_array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/packed_int32_array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/packed_int64_array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/packed_string_array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/packed_vector2_array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/packed_vector4_array.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/rect2i.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/vector2i.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/rid.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/signal.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/transform2d.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/vector3i.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/include/godot_cpp/variant/vector4i.hpp \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/variant_size.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/vector3.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/string.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/char_string.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/char_utils.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/char_range.inc.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/vector4.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/aabb.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/plane.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/rect2.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/vector2.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/transform3d.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/basis.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/quaternion.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/packed_vector3_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/variant.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/array_helpers.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/builtin_types.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/callable.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/callable_custom.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/core/object_id.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/string_name.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/color.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/dictionary.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/node_path.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/packed_byte_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/packed_color_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/packed_float32_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/packed_float64_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/packed_int32_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/packed_int64_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/packed_string_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/packed_vector2_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/packed_vector4_array.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/rect2i.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/vector2i.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/rid.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/signal.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/transform2d.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/vector3i.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/include/godot_cpp/variant/vector4i.hpp \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/variant_size.hpp \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/array \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iterator \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__functional_base \
@@ -195,4 +195,4 @@ godot-cpp/CMakeFiles/godot-cpp.dir/src/variant/projection.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/functional \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/bit \
-  /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/gen/include/godot_cpp/variant/builtin_vararg_methods.hpp
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/variant/builtin_vararg_methods.hpp

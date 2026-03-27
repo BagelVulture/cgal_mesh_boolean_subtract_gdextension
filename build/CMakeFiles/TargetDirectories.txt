@@ -1,7 +1,7 @@
-/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/cgal_gdextension.dir
-/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/edit_cache.dir
-/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles/rebuild_cache.dir
-/Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/CMakeFiles/generate_bindings.dir
-/Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/CMakeFiles/godot-cpp.dir
-/Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/CMakeFiles/edit_cache.dir
-/Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/CMakeFiles/rebuild_cache.dir
+/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/cgal_gdextension.dir
+/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/edit_cache.dir
+/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles/rebuild_cache.dir
+/Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/CMakeFiles/generate_bindings.dir
+/Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/CMakeFiles/godot-cpp.dir
+/Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/CMakeFiles/edit_cache.dir
+/Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/CMakeFiles/rebuild_cache.dir

@@ -53,10 +53,10 @@ RM = /usr/local/cmake-4.1.1/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/EthanHuot/Documents/godot/scrap-collector
+CMAKE_SOURCE_DIR = /Users/EthanHuot/Documents/godot/cgal_gdextension
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/EthanHuot/Documents/godot/scrap-collector/build
+CMAKE_BINARY_DIR = /Users/EthanHuot/Documents/godot/cgal_gdextension/build
 
 # Utility rule file for generate_bindings.
 
@@ -2069,10 +2069,10 @@ godot-cpp/CMakeFiles/generate_bindings: godot-cpp/gen/include/godot_cpp/classes/
 godot-cpp/CMakeFiles/generate_bindings: godot-cpp/gen/include/godot_cpp/core/version.hpp
 godot-cpp/CMakeFiles/generate_bindings: godot-cpp/gen/src/variant/utility_functions.cpp
 
-godot-cpp/gen/include/godot_cpp/core/ext_wrappers.gen.inc: /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/gdextension/extension_api.json
-godot-cpp/gen/include/godot_cpp/core/ext_wrappers.gen.inc: /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp/binding_generator.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/EthanHuot/Documents/godot/scrap-collector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bindings"
-	cd /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp && /Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13 -c "from binding_generator import generate_bindings;generate_bindings( api_filepath='gdextension/extension_api.json', use_template_get_node='True', bits='64', precision='single', output_dir='/Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp')"
+godot-cpp/gen/include/godot_cpp/core/ext_wrappers.gen.inc: /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/gdextension/extension_api.json
+godot-cpp/gen/include/godot_cpp/core/ext_wrappers.gen.inc: /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp/binding_generator.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bindings"
+	cd /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp && /Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13 -c "from binding_generator import generate_bindings;generate_bindings( api_filepath='gdextension/extension_api.json', use_template_get_node='True', bits='64', precision='single', output_dir='/Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp')"
 
 godot-cpp/gen/include/godot_cpp/core/gdvirtual.gen.inc: godot-cpp/gen/include/godot_cpp/core/ext_wrappers.gen.inc
 	@$(CMAKE_COMMAND) -E touch_nocreate godot-cpp/gen/include/godot_cpp/core/gdvirtual.gen.inc
@@ -10091,10 +10091,10 @@ godot-cpp/CMakeFiles/generate_bindings.dir/build: generate_bindings
 .PHONY : godot-cpp/CMakeFiles/generate_bindings.dir/build
 
 godot-cpp/CMakeFiles/generate_bindings.dir/clean:
-	cd /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp && $(CMAKE_COMMAND) -P CMakeFiles/generate_bindings.dir/cmake_clean.cmake
+	cd /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp && $(CMAKE_COMMAND) -P CMakeFiles/generate_bindings.dir/cmake_clean.cmake
 .PHONY : godot-cpp/CMakeFiles/generate_bindings.dir/clean
 
 godot-cpp/CMakeFiles/generate_bindings.dir/depend:
-	cd /Users/EthanHuot/Documents/godot/scrap-collector/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/EthanHuot/Documents/godot/scrap-collector /Users/EthanHuot/Documents/godot/scrap-collector/godot-cpp /Users/EthanHuot/Documents/godot/scrap-collector/build /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp /Users/EthanHuot/Documents/godot/scrap-collector/build/godot-cpp/CMakeFiles/generate_bindings.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/EthanHuot/Documents/godot/cgal_gdextension/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/EthanHuot/Documents/godot/cgal_gdextension /Users/EthanHuot/Documents/godot/cgal_gdextension/godot-cpp /Users/EthanHuot/Documents/godot/cgal_gdextension/build /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/CMakeFiles/generate_bindings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : godot-cpp/CMakeFiles/generate_bindings.dir/depend
 
