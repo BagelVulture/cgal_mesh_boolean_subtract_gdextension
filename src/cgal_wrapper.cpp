@@ -119,14 +119,13 @@ static CgalMesh godot_to_cgal(Ref<ArrayMesh> mesh, float scale) {
     std::map<PointKey, CgalMesh::Vertex_index> vertex_map;
 
     auto get_or_create_vertex = [&](const Vector3 &v) -> CgalMesh::Vertex_index {
-        Vector3 vs = v * scale;
-        PointKey key = make_point_key(vs);
+        PointKey key = make_point_key(v * scale);
         auto it = vertex_map.find(key);
         if (it != vertex_map.end()) {
             return it->second;
         }
 
-        CgalMesh::Vertex_index vi = out.add_vertex(Point(vs.x, vs.y, vs.z));
+        CgalMesh::Vertex_index vi = out.add_vertex(Point(v.x, v.y, v.z));
         vertex_map[key] = vi;
         return vi;
     };
@@ -251,35 +250,6 @@ Ref<ArrayMesh> CGALWrapper::boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> 
 
         CgalMesh ma = godot_to_cgal(a, 1);
         CgalMesh mb = godot_to_cgal(b, 2*bMulti);
-
-
-
-        CGAL::Bbox_3 b = PMP::bbox(ma);
-
-        UtilityFunctions::print(
-            "A bbox: min(",
-            b.xmin(), ", ",
-            b.ymin(), ", ",
-            b.zmin(), ") max(",
-            b.xmax(), ", ",
-            b.ymax(), ", ",
-            b.zmax(), ")"
-        );
-        CGAL::Bbox_3 c = PMP::bbox(mb);
-
-        UtilityFunctions::print(
-            "B bbox: min(",
-            c.xmin(), ", ",
-            c.ymin(), ", ",
-            c.zmin(), ") max(",
-            c.xmax(), ", ",
-            c.ymax(), ", ",
-            c.zmax(), ")"
-        );
-
-
-        if (!PMP::do_intersect(ma, mb)) {
-            UtilityFunctions::print("Meshes do NOT intersect (CGAL)");}
 
         if (!CGAL::is_triangle_mesh(ma) || !CGAL::is_triangle_mesh(mb)) {
             UtilityFunctions::print("Input is not a triangle mesh");

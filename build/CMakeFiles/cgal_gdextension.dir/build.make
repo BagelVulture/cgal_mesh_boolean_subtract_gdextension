@@ -72,10 +72,38 @@ include CMakeFiles/cgal_gdextension.dir/flags.make
 CMakeFiles/cgal_gdextension.dir/codegen:
 .PHONY : CMakeFiles/cgal_gdextension.dir/codegen
 
+CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o: CMakeFiles/cgal_gdextension.dir/flags.make
+CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o: /Users/EthanHuot/Documents/godot/cgal_gdextension/conversion/mesh_conversion.cpp
+CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o: CMakeFiles/cgal_gdextension.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o -MF CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o.d -o CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o -c /Users/EthanHuot/Documents/godot/cgal_gdextension/conversion/mesh_conversion.cpp
+
+CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/EthanHuot/Documents/godot/cgal_gdextension/conversion/mesh_conversion.cpp > CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.i
+
+CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/EthanHuot/Documents/godot/cgal_gdextension/conversion/mesh_conversion.cpp -o CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.s
+
+CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o: CMakeFiles/cgal_gdextension.dir/flags.make
+CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o: /Users/EthanHuot/Documents/godot/cgal_gdextension/modules/boolean.cpp
+CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o: CMakeFiles/cgal_gdextension.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o -MF CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o.d -o CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o -c /Users/EthanHuot/Documents/godot/cgal_gdextension/modules/boolean.cpp
+
+CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/EthanHuot/Documents/godot/cgal_gdextension/modules/boolean.cpp > CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.i
+
+CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/EthanHuot/Documents/godot/cgal_gdextension/modules/boolean.cpp -o CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.s
+
 CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o: CMakeFiles/cgal_gdextension.dir/flags.make
 CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o: /Users/EthanHuot/Documents/godot/cgal_gdextension/src/cgal_wrapper.cpp
 CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o: CMakeFiles/cgal_gdextension.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o -MF CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o.d -o CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o -c /Users/EthanHuot/Documents/godot/cgal_gdextension/src/cgal_wrapper.cpp
 
 CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.i: cmake_force
@@ -89,7 +117,7 @@ CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.s: cmake_force
 CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o: CMakeFiles/cgal_gdextension.dir/flags.make
 CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o: /Users/EthanHuot/Documents/godot/cgal_gdextension/src/register_types.cpp
 CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o: CMakeFiles/cgal_gdextension.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o -MF CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o.d -o CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o -c /Users/EthanHuot/Documents/godot/cgal_gdextension/src/register_types.cpp
 
 CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.i: cmake_force
@@ -102,12 +130,16 @@ CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.s: cmake_force
 
 # Object files for target cgal_gdextension
 cgal_gdextension_OBJECTS = \
+"CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o" \
+"CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o" \
 "CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o" \
 "CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o"
 
 # External object files for target cgal_gdextension
 cgal_gdextension_EXTERNAL_OBJECTS =
 
+libcgal_gdextension.dylib: CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o
+libcgal_gdextension.dylib: CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o
 libcgal_gdextension.dylib: CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o
 libcgal_gdextension.dylib: CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o
 libcgal_gdextension.dylib: CMakeFiles/cgal_gdextension.dir/build.make
@@ -116,7 +148,7 @@ libcgal_gdextension.dylib: /opt/homebrew/lib/libgmpxx.dylib
 libcgal_gdextension.dylib: /opt/homebrew/lib/libmpfr.dylib
 libcgal_gdextension.dylib: /opt/homebrew/lib/libgmp.dylib
 libcgal_gdextension.dylib: CMakeFiles/cgal_gdextension.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libcgal_gdextension.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/EthanHuot/Documents/godot/cgal_gdextension/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libcgal_gdextension.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cgal_gdextension.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

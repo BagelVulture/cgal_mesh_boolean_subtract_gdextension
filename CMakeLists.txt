@@ -17,11 +17,16 @@ add_subdirectory(${GODOT_CPP_DIR} godot-cpp)
 
 file(GLOB SRC_FILES
     src/*.cpp
+    modules/*.cpp
+    conversion/*.cpp
 )
 
 add_library(cgal_gdextension SHARED ${SRC_FILES})
 
 target_include_directories(cgal_gdextension PRIVATE
+    include
+    modules
+    conversion
     ${GODOT_CPP_DIR}/include
 )
 

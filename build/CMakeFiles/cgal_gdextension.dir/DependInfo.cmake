@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/EthanHuot/Documents/godot/cgal_gdextension/conversion/mesh_conversion.cpp" "CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o" "gcc" "CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o.d"
+  "/Users/EthanHuot/Documents/godot/cgal_gdextension/modules/boolean.cpp" "CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o" "gcc" "CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o.d"
   "/Users/EthanHuot/Documents/godot/cgal_gdextension/src/cgal_wrapper.cpp" "CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o" "gcc" "CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o.d"
   "/Users/EthanHuot/Documents/godot/cgal_gdextension/src/register_types.cpp" "CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o" "gcc" "CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o.d"
   )

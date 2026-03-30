@@ -156,6 +156,54 @@ godot-cpp/fast:
 	$(MAKE) $(MAKESILENT) -f godot-cpp/CMakeFiles/godot-cpp.dir/build.make godot-cpp/CMakeFiles/godot-cpp.dir/build
 .PHONY : godot-cpp/fast
 
+conversion/mesh_conversion.o: conversion/mesh_conversion.cpp.o
+.PHONY : conversion/mesh_conversion.o
+
+# target to build an object file
+conversion/mesh_conversion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o
+.PHONY : conversion/mesh_conversion.cpp.o
+
+conversion/mesh_conversion.i: conversion/mesh_conversion.cpp.i
+.PHONY : conversion/mesh_conversion.i
+
+# target to preprocess a source file
+conversion/mesh_conversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.i
+.PHONY : conversion/mesh_conversion.cpp.i
+
+conversion/mesh_conversion.s: conversion/mesh_conversion.cpp.s
+.PHONY : conversion/mesh_conversion.s
+
+# target to generate assembly for a file
+conversion/mesh_conversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.s
+.PHONY : conversion/mesh_conversion.cpp.s
+
+modules/boolean.o: modules/boolean.cpp.o
+.PHONY : modules/boolean.o
+
+# target to build an object file
+modules/boolean.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o
+.PHONY : modules/boolean.cpp.o
+
+modules/boolean.i: modules/boolean.cpp.i
+.PHONY : modules/boolean.i
+
+# target to preprocess a source file
+modules/boolean.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.i
+.PHONY : modules/boolean.cpp.i
+
+modules/boolean.s: modules/boolean.cpp.s
+.PHONY : modules/boolean.s
+
+# target to generate assembly for a file
+modules/boolean.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cgal_gdextension.dir/build.make CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.s
+.PHONY : modules/boolean.cpp.s
+
 src/cgal_wrapper.o: src/cgal_wrapper.cpp.o
 .PHONY : src/cgal_wrapper.o
 
@@ -215,6 +263,12 @@ help:
 	@echo "... generate_bindings"
 	@echo "... cgal_gdextension"
 	@echo "... godot-cpp"
+	@echo "... conversion/mesh_conversion.o"
+	@echo "... conversion/mesh_conversion.i"
+	@echo "... conversion/mesh_conversion.s"
+	@echo "... modules/boolean.o"
+	@echo "... modules/boolean.i"
+	@echo "... modules/boolean.s"
 	@echo "... src/cgal_wrapper.o"
 	@echo "... src/cgal_wrapper.i"
 	@echo "... src/cgal_wrapper.s"
