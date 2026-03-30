@@ -15,8 +15,6 @@
 #include <CGAL/Exact_predicates_exact_constructions_kernel.h>
 #include <CGAL/Polygon_mesh_processing/orient_polygon_soup.h>
 #include <CGAL/Polygon_mesh_processing/polygon_soup_to_polygon_mesh.h>
-#include <godot_cpp/classes/surface_tool.hpp>
-#include <cstdint>
 
 using namespace godot;
 
@@ -30,8 +28,11 @@ using vertex_descriptor = CgalMesh::Vertex_index;
 namespace PMP = CGAL::Polygon_mesh_processing;
 
 void CGALWrapper::_bind_methods() {
-    ClassDB::bind_method(D_METHOD("boolean_difference", "a", "b", "bMulti"),
+    ClassDB::bind_method(D_METHOD("boolean_difference", "a", "b"),
         &CGALWrapper::boolean_difference);
+
+    ClassDB::bind_method(D_METHOD("boolean_difference_shape", "a", "b"),
+        &CGALWrapper::boolean_difference_shape);
 }
 
 
@@ -104,7 +105,7 @@ static void print_face_points(const char *label, int64_t face_idx, const std::ve
 // ----------------------------
 // Godot → CGAL
 // ----------------------------
-static CgalMesh godot_to_cgal(Ref<ArrayMesh> mesh, float scale) {
+static CgalMesh godot_to_cgal(Ref<ArrayMesh> mesh) {
     CgalMesh out;
 
     if (mesh.is_null() || mesh->get_surface_count() == 0) {
@@ -119,7 +120,7 @@ static CgalMesh godot_to_cgal(Ref<ArrayMesh> mesh, float scale) {
     std::map<PointKey, CgalMesh::Vertex_index> vertex_map;
 
     auto get_or_create_vertex = [&](const Vector3 &v) -> CgalMesh::Vertex_index {
-        PointKey key = make_point_key(v * scale);
+        PointKey key = make_point_key(v);
         auto it = vertex_map.find(key);
         if (it != vertex_map.end()) {
             return it->second;
@@ -202,39 +203,26 @@ static Ref<ArrayMesh> cgal_to_godot(const CgalMesh &mesh) {
 
         if (face.size() == 3) {
             indices.push_back(face[0]);
-            indices.push_back(face[2]);
             indices.push_back(face[1]);
+            indices.push_back(face[2]);
         }
     }
 
-    // ---- Build mesh with SurfaceTool (for normals) ----
-    Ref<SurfaceTool> st = memnew(SurfaceTool);
-    st->begin(godot::Mesh::PRIMITIVE_TRIANGLES);
+    Array arrays;
+    arrays.resize(godot::Mesh::ARRAY_MAX);
+    arrays[godot::Mesh::ARRAY_VERTEX] = verts;
+    arrays[godot::Mesh::ARRAY_INDEX] = indices;
 
-    st->set_smooth_group(UINT32_MAX);
-
-    for (int i = 0; i < indices.size(); i += 3) {
-        Vector3 a = verts[indices[i]];
-        Vector3 b = verts[indices[i + 1]];
-        Vector3 c = verts[indices[i + 2]];
-
-        st->add_vertex(a);
-        st->add_vertex(b);
-        st->add_vertex(c);
-    }
-
-    st->generate_normals(false);
-
-    Ref<ArrayMesh> out = st->commit();
+    Ref<ArrayMesh> out = memnew(ArrayMesh);
+    out->add_surface_from_arrays(godot::Mesh::PRIMITIVE_TRIANGLES, arrays);
 
     return out;
 }
 
-
 // ----------------------------
 // Boolean Difference (Mesh) with Validation
 // ----------------------------
-Ref<ArrayMesh> CGALWrapper::boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> b, float bMulti) {
+Ref<ArrayMesh> CGALWrapper::boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> b) {
     CgalMesh result;
 
     try {
@@ -248,8 +236,8 @@ Ref<ArrayMesh> CGALWrapper::boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> 
             return cgal_to_godot(result);
         }
 
-        CgalMesh ma = godot_to_cgal(a, 1);
-        CgalMesh mb = godot_to_cgal(b, 2*bMulti);
+        CgalMesh ma = godot_to_cgal(a);
+        CgalMesh mb = godot_to_cgal(b);
 
         if (!CGAL::is_triangle_mesh(ma) || !CGAL::is_triangle_mesh(mb)) {
             UtilityFunctions::print("Input is not a triangle mesh");
@@ -284,4 +272,30 @@ Ref<ArrayMesh> CGALWrapper::boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> 
     }
 
     return cgal_to_godot(result);
+}
+
+// ----------------------------
+// Boolean Difference (Shape)
+// ----------------------------
+Ref<ArrayMesh> CGALWrapper::boolean_difference_shape(
+    Ref<ConcavePolygonShape3D> a,
+    Ref<ConcavePolygonShape3D> b
+) {
+    PackedVector3Array fa = a->get_faces();
+    PackedVector3Array fb = b->get_faces();
+
+    Ref<ArrayMesh> ma = memnew(ArrayMesh);
+    Ref<ArrayMesh> mb = memnew(ArrayMesh);
+
+    Array arr_a;
+    arr_a.resize(godot::Mesh::ARRAY_MAX);
+    arr_a[godot::Mesh::ARRAY_VERTEX] = fa;
+    ma->add_surface_from_arrays(godot::Mesh::PRIMITIVE_TRIANGLES, arr_a);
+
+    Array arr_b;
+    arr_b.resize(godot::Mesh::ARRAY_MAX);
+    arr_b[godot::Mesh::ARRAY_VERTEX] = fb;
+    mb->add_surface_from_arrays(godot::Mesh::PRIMITIVE_TRIANGLES, arr_b);
+
+    return boolean_difference(ma, mb);
 }
