@@ -15,5 +15,5 @@ protected:
     static void _bind_methods();
 
 public:
-    Ref<ArrayMesh> boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> b, float bMulti);
+    Ref<ArrayMesh> boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> b);
 };

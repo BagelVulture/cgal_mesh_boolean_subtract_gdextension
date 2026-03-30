@@ -30,7 +30,7 @@ using vertex_descriptor = CgalMesh::Vertex_index;
 namespace PMP = CGAL::Polygon_mesh_processing;
 
 void CGALWrapper::_bind_methods() {
-    ClassDB::bind_method(D_METHOD("boolean_difference", "a", "b", "bMulti"),
+    ClassDB::bind_method(D_METHOD("boolean_difference", "a", "b"),
         &CGALWrapper::boolean_difference);
 }
 
@@ -104,7 +104,7 @@ static void print_face_points(const char *label, int64_t face_idx, const std::ve
 // ----------------------------
 // Godot → CGAL
 // ----------------------------
-static CgalMesh godot_to_cgal(Ref<ArrayMesh> mesh, float scale) {
+static CgalMesh godot_to_cgal(Ref<ArrayMesh> mesh) {
     CgalMesh out;
 
     if (mesh.is_null() || mesh->get_surface_count() == 0) {
@@ -119,7 +119,7 @@ static CgalMesh godot_to_cgal(Ref<ArrayMesh> mesh, float scale) {
     std::map<PointKey, CgalMesh::Vertex_index> vertex_map;
 
     auto get_or_create_vertex = [&](const Vector3 &v) -> CgalMesh::Vertex_index {
-        PointKey key = make_point_key(v * scale);
+        PointKey key = make_point_key(v);
         auto it = vertex_map.find(key);
         if (it != vertex_map.end()) {
             return it->second;
@@ -234,7 +234,7 @@ static Ref<ArrayMesh> cgal_to_godot(const CgalMesh &mesh) {
 // ----------------------------
 // Boolean Difference (Mesh) with Validation
 // ----------------------------
-Ref<ArrayMesh> CGALWrapper::boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> b, float bMulti) {
+Ref<ArrayMesh> CGALWrapper::boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> b) {
     CgalMesh result;
 
     try {
@@ -248,8 +248,8 @@ Ref<ArrayMesh> CGALWrapper::boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> 
             return cgal_to_godot(result);
         }
 
-        CgalMesh ma = godot_to_cgal(a, 1);
-        CgalMesh mb = godot_to_cgal(b, 2*bMulti);
+        CgalMesh ma = godot_to_cgal(a);
+        CgalMesh mb = godot_to_cgal(b);
 
         if (!CGAL::is_triangle_mesh(ma) || !CGAL::is_triangle_mesh(mb)) {
             UtilityFunctions::print("Input is not a triangle mesh");
