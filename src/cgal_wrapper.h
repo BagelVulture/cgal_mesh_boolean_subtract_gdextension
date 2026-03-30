@@ -15,9 +15,5 @@ protected:
     static void _bind_methods();
 
 public:
-    Ref<ArrayMesh> boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> b);
-    Ref<ArrayMesh> boolean_difference_shape(
-        Ref<ConcavePolygonShape3D> a,
-        Ref<ConcavePolygonShape3D> b
-    );
+    Ref<ArrayMesh> boolean_difference(Ref<ArrayMesh> a, Ref<ArrayMesh> b, float bMulti);
 };

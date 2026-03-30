@@ -3005,4 +3005,5 @@ CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o: \
   /usr/local/include/CGAL/Projection_traits_xy_3.h \
   /usr/local/include/boost/ref.hpp \
   /usr/local/include/CGAL/Polygon_mesh_processing/internal/Corefinement/Face_graph_output_builder.h \
-  /usr/local/include/CGAL/Polygon_mesh_processing/internal/Corefinement/Output_builder_for_autorefinement.h
+  /usr/local/include/CGAL/Polygon_mesh_processing/internal/Corefinement/Output_builder_for_autorefinement.h \
+  /Users/EthanHuot/Documents/godot/cgal_gdextension/build/godot-cpp/gen/include/godot_cpp/classes/surface_tool.hpp
