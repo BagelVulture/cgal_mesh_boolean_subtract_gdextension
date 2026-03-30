@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o"
-  "CMakeFiles/cgal_gdextension.dir/conversion/mesh_conversion.cpp.o.d"
-  "CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o"
-  "CMakeFiles/cgal_gdextension.dir/modules/boolean.cpp.o.d"
   "CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o"
   "CMakeFiles/cgal_gdextension.dir/src/cgal_wrapper.cpp.o.d"
   "CMakeFiles/cgal_gdextension.dir/src/register_types.cpp.o"
